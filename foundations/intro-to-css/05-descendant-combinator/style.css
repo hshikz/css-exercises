@@ -1,1 +1,42 @@
 /* Add CSS Styling */
+div p{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* why its only P? because its more optimized 😎 21:18 6/27/2026 */
+/* ok nvm all of them is now styled uhh 21:18 6/27/2026 */
+/* update i was thinking using "div p" selector
+so it would optimized since the browser doesnt need to search for each class
+and would targeting a "p" inside "div" parent
+but when i think about it.... if this was a real prod and using the same parent and child
+for different content and different style...i certfied fucked up😎
+so i just put two of them 21:26 6/27/2026 */
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+.container p{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* sudden enlightment incoming
+this also work
+but not optimized and can certified fucked up other team
+if i made a container class parent with P element as a child 
+when other people use the same class and the same element (p)in this case
+they would be confused why the text is red and the background is yellow 😂😂
+but its work nevertheless 21:32 6/27/2026*/
+/* one thing i realized
+the browser need to choose between the 3 styles
+its not... optimized but well... you got my point 😂
+21:33 6/27/2026 */
+/* a note to future me, if you ever fucked up and doesnt choose which to specify
+remember this time when you cant specify css rules so you make 3 of them
+also. remember this sudden enlightment 😊
+maintainability>micro optimization 😊 */
