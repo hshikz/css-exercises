@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+.numberichi {
+    background-color: rgb(255, 127, 127);
+    font-family:"DejaVu Sans" Verdana,sans-serif;
+}
+#numberni {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+.two{
+    font-size: 24px;
+}
+#numberyon {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: 700;
+}
