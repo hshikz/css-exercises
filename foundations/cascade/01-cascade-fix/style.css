@@ -8,28 +8,33 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
-  font-weight: 800;
 }
-
+/* this is a chaining selector */
 .para {
   font-size: 22px;
 }
+/* im confused how its work but it is working anyway */
 
+#confirm-button,
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
+/* i just chnged to be a class and id selector
+but id seelctor only could work since its take more
+priority*/
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
+/* i kept it as it is because well there's 
+nothing that selecting the .button class */
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -40,3 +45,6 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+/* well its already working at it is and i confused how 
+actually im honestly confuse how the hell this is working at all
+😭😭 */
